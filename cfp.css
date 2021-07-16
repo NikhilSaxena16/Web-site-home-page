@@ -1,0 +1,51 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background: url(https://i.etsystatic.com/13981758/r/il/293bda/1883467395/il_570xN.1883467395_ds4k.jpg)no-repeat;
+	background-size: cover;
+	height: 95vh;
+	display: flex;
+}
+.form-container{
+	display: flex;
+	height: 98vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.form-container .form-wrap{
+	background: #fff;
+	width: 40%;
+	padding: 15px 20px;
+}
+.form-container .form-wrap h2{
+	text-align: center;
+	margin: 0px 0px 20px;
+	font-size: 20px;
+}
+.form-container .form-wrap .form-box{
+	margin: 0px 0px 15px;
+}
+.form-container .form-wrap .form-box input[type="text"]{
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #000000;
+	width: 100%;
+}
+.form-container .form-wrap .form-submit{
+	display: flex;
+	justify-content: center;
+}
+.form-container .form-wrap .form-submit input[type="submit"]{
+	padding: 4px 10px;
+	border: none;
+	border-radius: 2px;
+	color: #ffffff;
+	background: #000000;
+	font-weight: 600;
+	font-size: 14px;
+	cursor: pointer;
+}
